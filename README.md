@@ -8,22 +8,11 @@ They've asked you to help them decipher the data, and answer some questions.
 
 ## Instructions
 
-1. Clone this repo (no need to fork).
+1. Fork and clone this repo
 1. Look at the data in `people.rb`
 1. Check out `00_example.rb` for an example of what to do (basically, just `puts` things out
 1. Go through each file and complete the exercise
 1. Rejoice!
-
-# Setup
-
-* Fork
-* Clone
-* Turn on TravisCI for the fork by
-  visiting https://travis-ci.org/profile/<github user name>, clicking the "Sync now" button
-  and scrolling down to find the repository to build.
-* Create a new branch for your work using `git checkout -b v1`
-* Implement specs and code
-* Push using `git push -u origin v1`
 
 ## Further Practice
 
