@@ -1,9 +1,0 @@
-Id,Story,Labels,Iteration,Iteration Start,Iteration End,Story Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
-73475260,Print the last names of all of the people,"",1,"Jun 16, 2014","Jun 22, 2014",feature,1,unstarted,"Jun 18, 2014",,,Hunter Gillane,edit 01_last_names.rb,https://www.pivotaltracker.com/story/show/73475260,
-73475338,Print the first musical genre that each person listed,"",1,"Jun 16, 2014","Jun 22, 2014",feature,1,unstarted,"Jun 18, 2014",,,Hunter Gillane,edit 02_first_genre.rb,https://www.pivotaltracker.com/story/show/73475338,
-73475432,Print the meal is sue going to eat,"",1,"Jun 16, 2014","Jun 22, 2014",feature,1,unstarted,"Jun 18, 2014",,,Hunter Gillane,edit 04_sues_meal.rb,https://www.pivotaltracker.com/story/show/73475432,
-73475398,Print the last name of the person sitting next to joe,"",1,"Jun 16, 2014","Jun 22, 2014",feature,1,unstarted,"Jun 18, 2014",,,Hunter Gillane,"edit 03_joes_neighbor.rb
-",https://www.pivotaltracker.com/story/show/73475398,
-73475474,Print the date of the first correspondence with joe,"",1,"Jun 16, 2014","Jun 22, 2014",feature,2,unstarted,"Jun 18, 2014",,,Hunter Gillane,"edit 05_joes_date.rb
-",https://www.pivotaltracker.com/story/show/73475474,
-73475540,Print the description of the last correspondence with sue,"",1,"Jun 16, 2014","Jun 22, 2014",feature,2,unstarted,"Jun 18, 2014",,,Hunter Gillane,edit 06_sues_date.rb,https://www.pivotaltracker.com/story/show/73475540,
