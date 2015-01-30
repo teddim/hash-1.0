@@ -6,9 +6,12 @@ The failed startup was kind enough to send them a data dump, but it's in a crazy
 
 They've asked you to help them decipher the data, and answer some questions.
 
-## Instructions
+Some kind developer already started some methods and wrote some code that checks them for you; you just need to fill the methods in. Check the code for hints!
 
-* Go through each file in order
-* Read the comments in the file
-* Write the code using `puts` statements to generate the expected result
-* Run the files with `ruby 00_example.rb` to check your work
+
+Exercise
+======
+
+* cd to project directory
+* `$ ruby wedding.rb`
+* Read the source code and make the code pass!
