@@ -1,4 +1,5 @@
 require_relative "testing_library"
+require "pp"
 
 unless File.exists?(".name")
   print "Please enter your name\n"
@@ -42,21 +43,44 @@ def joes_last_name(people)
 end
 
 def last_names(people)
+  # multi_names = [ people["joe"][:last_name] ] +
+  #             [people["sue"][:last_name]]
+  result = []
+  people.each do |person, person_data|
+    # people.each_value do |person_data|
+    result << person_data[:last_name]
+  end
+  result
 end
 
 def first_fav_genre(people)
+  result = []
+  people.each do |person, person_data|
+    # people.each_value do |person_data|
+    result << person_data[:preferences][:favorite_genres][0]
+  end
+  result
+
 end
 
 def joes_neighbor(people)
+  #use this as the key for find the last name
+  first_name= people["joe"][:sitting_next_to]
+  people[first_name.to_s][:last_name]
+
 end
 
 def sues_meal(people)
+  people["sue"][:preferences][:meal]
 end
 
 def joes_first_letter_date(people)
+  people["joe"][:correspondence][0][:date]
 end
 
 def sues_last_letter_desc(people)
+  letter_date = people["sue"][:correspondence]
+  letter_date.last[:description]
 end
 
 puts "*"*80
